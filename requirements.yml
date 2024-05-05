@@ -1,0 +1,4 @@
+- src: git@github.com:eyewande2022/ansible-role-pftd-app.git
+  name: ansible-role-pftd-app
+  scm: git
+  version: main

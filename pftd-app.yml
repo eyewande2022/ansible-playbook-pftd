@@ -1,0 +1,9 @@
+---
+  - name : Deploying a server on the ec2 server 
+    hosts: webserver
+    become: true
+    tasks:
+      - name: Install java application
+        yum:
+            name: java-11-amazon-corretto-headless
+            state:  latest

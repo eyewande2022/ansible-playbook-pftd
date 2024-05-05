@@ -1,0 +1,5 @@
+plugin: aws_ec2
+region: eu-west-2
+
+groups:
+  webserver: "'PFTD-Application' in tags.Name"
